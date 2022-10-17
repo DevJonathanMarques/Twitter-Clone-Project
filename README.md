@@ -1,16 +1,53 @@
-# Projeto Twitter Clone
-Criei este repositório para postar scripts com fins de exibir o meu trabalho.
+# Twitter Clone Project / Projeto Twitter Clone
+I created this repository to post scripts for the purpose of displaying my work. For those who speak English, just keep reading the next topic.
+
+Criei este repositório para postar scripts com fins de exibir o meu trabalho. Para conseguir fazer uso do projeto é necessário ter instalado o PHP. Após o texto em inglês, eu ensinarei uma forma de conseguir executar o site e fazê-lo funcionar.
+
+# How to run the site?
+To be able to use the project it is necessary to have PHP installed. Below I will teach you a way to get the site running and make it work.
+
+### Step 1
+Install XAMPP: https://www.apachefriends.org/en_br/download.html
+
+When installing XAMPP, you will only need to download Apache, PHP, MySQL and phpMyAdmin in the package.
+
+### Step 2
+After installing XAMPP, you can use PHP's built-in server as your HTTp server. I particularly prefer to use PHP's built-in server. For this, look for the directory where PHP was installed by XAMPP and then search in the Environment Variables settings, access the Environment Variable and include the folder where php is installed, so that all executables within the directory are recognized from anywhere of the operating system. **DO NOT DELETE ANYTHING FROM THE OPERATING SYSTEM PATH VARIABLE.**
+
+### Step 3
+To test if PHP is configured globally, just go to CMD and type the command **php -v**. If configured, the installed version of PHP will appear.
+
+### Step 4
+After configuring PHP, it is necessary to open the XAMPP panel, enable Apache and MySQL. With them enabled, access phpMyAdmin and use the queries from the querys.txt file.
+
+### Step 5
+Now just access the CMD, select the path to the folder where the repository was downloaded and enter the following command to create a local server:
+```sh
+php -S localhost:8080
+```
+
+### Step 6
+After performing all the steps, everything is configured to be able to use the site, just type localhost:8080 in your browser's URL.
+
+# How to use the site?
+The site works with the MVC Architecture, so it works with the route system.
+
+### REGISTRATION AND LOGIN
+Register some users for testing. Recommend 3. After registering some users, log in.
+
+### Tweet
+After registering and logging in, you can tweet, delete your own tweets, follow other users and view their tweets.
+
 
 # Como executar o site?
-Para conseguir fazer uso do projeto é necessário ter instalado o PHP. Abaixo eu ensinarei uma forma de conseguir executar o site e fazê-lo funcionar.
 
 ### Passo 1
-Instalar o XAMPP: - https://www.apachefriends.org/pt_br/download.html
+Instalar o XAMPP: https://www.apachefriends.org/pt_br/download.html
 
 Ao instalar o XAMPP, só será necessário baixar no pacote o Apache, o PHP, o MySQL e o phpMyAdmin.
 
 ### Passo 2
-Após instalar o XAMPP, é possível utilizar como servidor HTTp o Apache como o servidor embutido do PHP. Eu particularmente prefiro utilizar o servidor embutido do PHP. Para isso, procure o diretório onde o PHP foi instalado pelo XAMPP e depois pesquise nas configurações Variáveis de Ambiente, acesse a Variável de Ambiente e inclua a pasta onde o php está instalado, para que todos os executáveis dentro do diretório sejam reconhecidos de qualquer local do sistema operacional. **NÂO APAGAR NADA DA VARIÁVEL PATH DO SISTEMA OPERACIONAL.**
+Após instalar o XAMPP, é possível utilizar como servidor HTTp o servidor embutido do PHP. Eu particularmente prefiro utilizar o servidor embutido do PHP. Para isso, procure o diretório onde o PHP foi instalado pelo XAMPP e depois pesquise nas configurações Variáveis de Ambiente, acesse a Variável de Ambiente e inclua a pasta onde o php está instalado, para que todos os executáveis dentro do diretório sejam reconhecidos de qualquer local do sistema operacional. **NÂO APAGAR NADA DA VARIÁVEL PATH DO SISTEMA OPERACIONAL.**
 
 ### Passo 3
 Para testar se o PHP está configurado globalmente, basta ir no CMD e digitar o comando **php -v**. Se estiver configurado, irá aparecer a versão do PHP instalada.
